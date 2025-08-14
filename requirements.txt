@@ -1,0 +1,15 @@
+fastapi
+uvicorn
+pydantic
+polars
+scikit-learn
+pyod
+pandas        
+mlflow
+sqlalchemy
+alembic
+python-dotenv
+streamlit
+plotly
+reportlab     
+faker
