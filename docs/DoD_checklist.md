@@ -5,7 +5,7 @@
  - [x] add Person with corresponding Stories to ``person_stories.md``
  - [x] taxonomy.yaml + labeling_guide.md exist
  - [x] cvs_input and db_schema is defined
- - [ ] api_contract.yaml drafted (endpoints + fields)
+ - [x] api_contract.yaml drafted (endpoints + fields)
  - [ ] Metrics targets declared; NFRs listed
  - [ ] Risks & mitigations documented
  - [ ] Issues created for M1/M2/M3 with acceptance criteria

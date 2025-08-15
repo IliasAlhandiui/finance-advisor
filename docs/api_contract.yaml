@@ -1,0 +1,30 @@
+openapi: 3.0.0
+info: {title: Finance Advisor API, version: 0.1.0}
+paths:
+  /ingest:
+    post:
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: array
+              items:
+                $ref: '#/components/schemas/TxnIn'
+      responses: { '200': { description: OK } }
+  /categorize/{user_id}:
+    get: { parameters: [{name: user_id, in: path, required: true, schema: {type: integer}}], responses: {'200': {description: OK}} }
+  /insights/{user_id}:
+    get: { parameters: [{name: user_id, in: path, required: true, schema: {type: integer}}], responses: {'200': {description: OK}} }
+components:
+  schemas:
+    TxnIn:
+      type: object
+      required: [user_id, ts, amount, currency, merchant]
+      properties:
+        user_id: {type: integer}
+        ts: {type: string, format: date-time}
+        amount: {type: number}
+        currency: {type: string}
+        merchant: {type: string}
+        raw_desc: {type: string}
