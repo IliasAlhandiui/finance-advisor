@@ -1,14 +1,14 @@
 # Definition of Done (Prototype)
 
 ## Phase 1 - Define Scroup & Requirement
- - [ ] README contains the one-pager and MoSCoW (Must, Should, Could, Won't) scope
+ - [x] README contains the one-pager and MoSCoW (Must, Should, Could, Won't) scope
  - [x] add Person with corresponding Stories to ``person_stories.md``
  - [x] taxonomy.yaml + labeling_guide.md exist
  - [x] cvs_input and db_schema is defined
  - [x] api_contract.yaml drafted (endpoints + fields)
  - [x] Metrics targets declared; NFRs listed
  - [x] Risks & mitigations documented
- - [ ] Issues created for M1/M2/M3 with acceptance criteria
+ - [x] Issues created for M1/M2/M3 with acceptance criteria
 
 ## Phase 2 - Data Collection & Cleaning 
 
