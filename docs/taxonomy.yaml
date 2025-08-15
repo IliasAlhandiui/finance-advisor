@@ -1,0 +1,21 @@
+version: 1
+categories:
+  - groceries
+  - dining
+  - transport
+  - insurence
+  - gas
+  - utilities
+  - entertainment
+  - shopping
+  - subscriptions
+  - health
+  - travel
+  - education
+  - rent
+  - other
+rules:
+  groceries: ["REWE","EDEKA","LIDL","ALDI","PENNY"]
+  dining: ["Burger King","McDonald","Kebab","Pizza","Domino"]
+  transport: ["DB","U-Bahn","Flixbus","Uber","Bolt"]
+  subscriptions: ["Netflix","Spotify","Apple","Google","Microsoft"]

@@ -3,7 +3,8 @@
 ## Phase 1 - Define Scroup & Requirement
  - [ ] README contains the one-pager and MoSCoW (Must, Should, Could, Won't) scope
  - [x] add Person with corresponding Stories to ``person_stories.md``
- - [ ] taxonomy.yaml + labeling_guide.md exist
+ - [x] taxonomy.yaml + labeling_guide.md exist
+ - [x] cvs_input and db_schema is defined
  - [ ] api_contract.yaml drafted (endpoints + fields)
  - [ ] Metrics targets declared; NFRs listed
  - [ ] Risks & mitigations documented

@@ -1,0 +1,28 @@
+version: 1.0
+description: Schema for raw transaction CSV input.
+columns:
+  - name: user_id
+    type: int
+    required: true
+    description: Unique user identifier.
+  - name: ts
+    type: datetime
+    format: "%Y-%m-%d %H:%M:%S"
+    required: true
+    description: Transaction timestamp.
+  - name: amount
+    type: float
+    required: true
+    description: Transaction amount (positive or negative).
+  - name: currency
+    type: str
+    required: true
+    description: ISO 4217 currency code.
+  - name: merchant
+    type: str
+    required: true
+    description: Merchant or vendor name.
+  - name: raw_desc
+    type: str
+    required: false
+    description: Raw transaction description.

@@ -1,8 +1,8 @@
 # Persons
 
-- Name: Memo, 37, Backer in Buxtehude, he's is a hardworking man, barely at home but at the end of the month he has barely any money in his bank account and want to know why 
+- Name: Memo, 37, Baker in Buxtehude, he's is a hardworking man, barely at home but at the end of the month he has barely any money in his bank account and want to know why 
 - Goal: See his monthly spending, know where he spends the most money --> wants to improve his finances
-
+---
 1.  - As Memo I want my transactions to be auto-categorized, so I can see where I spent the most money 
     - DoD:
         - Given I uploaded a CSV with merchant and amount
