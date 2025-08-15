@@ -6,7 +6,7 @@
  - [x] taxonomy.yaml + labeling_guide.md exist
  - [x] cvs_input and db_schema is defined
  - [x] api_contract.yaml drafted (endpoints + fields)
- - [ ] Metrics targets declared; NFRs listed
+ - [x] Metrics targets declared; NFRs listed
  - [ ] Risks & mitigations documented
  - [ ] Issues created for M1/M2/M3 with acceptance criteria
 
